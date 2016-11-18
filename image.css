@@ -1,0 +1,28 @@
+div{
+	background-color: aquamarine;
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	
+}
+.font{
+	font-size: 50px;
+	font-family: cursive;
+	text-decoration: bold;
+}
+li{
+	list-style: none;
+		
+}
+@media (max-width: 600px) { /* One Column Layout*/
+	
+}
+@media (min-width: 600px and max-width: 1200px) { /* Two columns for Layout */
+ 
+
+}
+
+@media (min-width: 1200px) { /* Four columns for Layout */
+
+
+
+}
