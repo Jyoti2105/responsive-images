@@ -1,4 +1,4 @@
-div{
+/*div{
 	background-color: aquamarine;
 	text-align: center;
 	padding: 20px 20px 20px 20px;
@@ -21,7 +21,7 @@ ul {
 picture,
 img {
     max-width: 90%;
-}
+}*/
 /* 1 column Layout*/
 @media screen and (max-width: 600px) {
     ul li {
