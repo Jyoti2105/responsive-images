@@ -9,20 +9,45 @@ div{
 	font-family: cursive;
 	text-decoration: bold;
 }
-li{
-	list-style: none;
-		
-}
-@media (max-width: 600px) { /* One Column Layout*/
-	
-}
-@media (min-width: 600px and max-width: 1200px) { /* Two columns for Layout */
- 
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
-@media (min-width: 1200px) { /* Four columns for Layout */
+ul {
+    list-style: none;
+}
+
+picture,
+img {
+    max-width: 90%;
+}
+/* 1 column Layout*/
+@media screen and (max-width: 600px) {
+    ul li {
+        float: left;
+        width: 100%;
+    }
+}
+/* 2  column Layout*/
+@media screen and (min-width:600px) and (max-width: 1200px) {
+    ul li {
+        float: left;
+        width: 50%;
+    }
+}
 
 
+/* 2 column Layout*/
 
+@media screen and (min-width:1200px) {
+    ul li {
+        float: left;
+        width: 25%;
+    }
+    ul.res::after {
+        content: '';
+        clear: left;
+        display: block;
+    }
 }
